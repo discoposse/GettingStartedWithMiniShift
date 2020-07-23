@@ -8,7 +8,11 @@ Here's the YouTube video of the upcoming live session:
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2ho_Uyh7lnY/0.jpg)](https://www.youtube.com/embed/2ho_Uyh7lnY)
 
 
-Here's the [app repo we fork in order to use as our sample OpenShift app] (https://github.com/turbonomiclabs/ruby-ex)
+Here's the [app repo we fork in order to use as our sample OpenShift app](https://github.com/turbonomiclabs/ruby-ex)
+
+Here's where you can [download an OC command line for Mac](https://github.com/openshift/origin/releases/download/v3.11.0/openshift-origin-client-tools-v3.11.0-0cbc58b-mac.zip)
+
+here;s where you go to [download the Minishift binary](https://github.com/minishift/minishift/releases)
 
 Here is the commands tha twe use as part of the flow:
 

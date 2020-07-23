@@ -6,3 +6,18 @@ MiniShift is a nifty tool for getting started with testing out OpenShift using a
 Here's the YouTube video of the upcoming live session:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2ho_Uyh7lnY/0.jpg)](https://www.youtube.com/embed/2ho_Uyh7lnY)
+
+
+Here's the [app repo we fork in order to use as our sample OpenShift app] (https://github.com/turbonomiclabs/ruby-ex)
+
+Here is the commands tha twe use as part of the flow:
+
+Logging in to the CLI as admin:
+```
+oc login -u system:admin
+```
+
+Deploying our ruby-ex sample app (replace the URL with your forked repo url)
+```
+oc new-app openshift/ruby:2.5~https://github.com/turbonomiclabs/ruby-ex
+```

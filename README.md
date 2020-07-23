@@ -14,6 +14,14 @@ Here's where you can [download an OC command line for Mac](https://github.com/op
 
 Here's where you go to [download the Minishift binary](https://github.com/minishift/minishift/releases)
 
+Here is where you get [VirtualBox](https://virtualbox.org)
+
+If you get an error about your version of VirtualBox, you have to launch the MiniShift using a specific command line here:
+
+```
+minishift start --vm-driver virtualbox
+```
+
 Here is the commands tha twe use as part of the flow:
 
 Logging in to the CLI as admin:
